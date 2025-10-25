@@ -1,0 +1,227 @@
+{
+  "dataset_info": {
+    "version": "1.0",
+    "created_date": "2024-01-15",
+    "total_entries": 10,
+    "categories": 8,
+    "last_updated": "2024-01-15",
+    "description": "Sample dataset for LPU Query Chatbot development"
+  },
+  "entries": [
+    {
+      "id": "query_001",
+      "original_query": "How to apply for duplicate ID card?",
+      "normalized_query": "how to apply for duplicate id card",
+      "category": "Certificates & Documents",
+      "subcategory": "Student ID",
+      "answer": "Visit Block 32, Admin Section with your student ID proof and ₹200 fee. Processing takes 2 working days. Bring passport-size photo and filled application form.",
+      "metadata": {
+        "department": "All Departments",
+        "year": "All Years",
+        "frequency": "Often",
+        "difficulty": "Easy",
+        "confidence_score": 0.95,
+        "created_date": "2024-01-10",
+        "reviewed_by": "Admin Team",
+        "last_updated": "2024-01-12"
+      }
+    },
+    {
+      "id": "query_002",
+      "original_query": "How do I check my mid-term marks in UMS?",
+      "normalized_query": "how to check mid term marks in ums",
+      "category": "Academics & Courses",
+      "subcategory": "Results & Grades",
+      "answer": "Login to UMS → Academics → Evaluation → Marks Summary. Select the relevant semester and click on 'View Mid-term Marks'. Contact your department if marks are not visible.",
+      "metadata": {
+        "department": "All Departments",
+        "year": "All Years",
+        "frequency": "Often",
+        "difficulty": "Easy",
+        "confidence_score": 0.92,
+        "created_date": "2024-01-10",
+        "reviewed_by": "Academic Team",
+        "last_updated": "2024-01-11"
+      }
+    },
+    {
+      "id": "query_003",
+      "original_query": "What's the process for hostel room change?",
+      "normalized_query": "what is the process for hostel room change",
+      "category": "Hostel & Accommodation",
+      "subcategory": "Room Management",
+      "answer": "Submit room change request form at hostel warden's office with valid reason (medical/academic). Pay ₹500 processing fee. Approval takes 3-5 working days depending on availability.",
+      "metadata": {
+        "department": "All Departments",
+        "year": "All Years",
+        "frequency": "Sometimes",
+        "difficulty": "Medium",
+        "confidence_score": 0.88,
+        "created_date": "2024-01-11",
+        "reviewed_by": "Hostel Administration",
+        "last_updated": "2024-01-11"
+      }
+    },
+    {
+      "id": "query_004",
+      "original_query": "When will the end semester exams start?",
+      "normalized_query": "when will end semester exams start",
+      "category": "Exams & Schedule",
+      "subcategory": "Exam Schedule",
+      "answer": "End semester exams typically start in the first week of December for odd semesters and first week of May for even semesters. Check official LPU academic calendar on website for exact dates.",
+      "metadata": {
+        "department": "All Departments",
+        "year": "All Years",
+        "frequency": "Very Often",
+        "difficulty": "Easy",
+        "confidence_score": 0.90,
+        "created_date": "2024-01-12",
+        "reviewed_by": "Examination Department",
+        "last_updated": "2024-01-12"
+      }
+    },
+    {
+      "id": "query_005",
+      "original_query": "How to apply for scholarship in LPU?",
+      "normalized_query": "how to apply for scholarship in lpu",
+      "category": "Scholarships & Financial Aid",
+      "subcategory": "Scholarship Application",
+      "answer": "Apply through LPU Connect → Financial Aid → Scholarship Portal. Upload required documents (income certificate, academic records). Deadline for merit-based scholarships is usually within 30 days of admission.",
+      "metadata": {
+        "department": "All Departments",
+        "year": "All Years",
+        "frequency": "Often",
+        "difficulty": "Medium",
+        "confidence_score": 0.87,
+        "created_date": "2024-01-12",
+        "reviewed_by": "Financial Aid Office",
+        "last_updated": "2024-01-13"
+      }
+    },
+    {
+      "id": "query_006",
+      "original_query": "What are the library timings?",
+      "normalized_query": "what are the library timings",
+      "category": "Campus Facilities",
+      "subcategory": "Library Services",
+      "answer": "Central Library: 8:00 AM to 9:00 PM (Monday to Saturday), 9:00 AM to 6:00 PM (Sunday). Department libraries: 9:00 AM to 5:00 PM. Extended hours during exam periods.",
+      "metadata": {
+        "department": "All Departments",
+        "year": "All Years",
+        "frequency": "Sometimes",
+        "difficulty": "Easy",
+        "confidence_score": 0.94,
+        "created_date": "2024-01-13",
+        "reviewed_by": "Library Administration",
+        "last_updated": "2024-01-13"
+      }
+    },
+    {
+      "id": "query_007",
+      "original_query": "How to get internship assistance from placement cell?",
+      "normalized_query": "how to get internship assistance from placement cell",
+      "category": "Placements & Internships",
+      "subcategory": "Internship Support",
+      "answer": "Register on LPU Connect → Placement Portal → Internship Section. Upload resume and complete profile. Attend placement cell orientation. Active students receive internship opportunities via email and portal notifications.",
+      "metadata": {
+        "department": "All Departments",
+        "year": "2nd Year and above",
+        "frequency": "Often",
+        "difficulty": "Medium",
+        "confidence_score": 0.89,
+        "created_date": "2024-01-13",
+        "reviewed_by": "Placement Cell",
+        "last_updated": "2024-01-14"
+      }
+    },
+    {
+      "id": "query_008",
+      "original_query": "What is the fee payment deadline for this semester?",
+      "normalized_query": "what is the fee payment deadline for this semester",
+      "category": "Fees & Payments",
+      "subcategory": "Fee Deadlines",
+      "answer": "Fee payment deadline is typically 15 days before the start of semester. Late payment attracts 5% penalty per week. Payment options: online through LPU Connect, bank deposit, or fee counter at Block 4.",
+      "metadata": {
+        "department": "All Departments",
+        "year": "All Years",
+        "frequency": "Very Often",
+        "difficulty": "Easy",
+        "confidence_score": 0.91,
+        "created_date": "2024-01-14",
+        "reviewed_by": "Accounts Department",
+        "last_updated": "2024-01-14"
+      }
+    },
+    {
+      "id": "query_009",
+      "original_query": "How to join student clubs at LPU?",
+      "normalized_query": "how to join student clubs at lpu",
+      "category": "Student Clubs & Activities",
+      "subcategory": "Club Registration",
+      "answer": "Attend Club Fair in first week of semester or visit Student Affairs office in Block 15. Fill registration form and pay ₹100 membership fee. Most clubs meet weekly. Check LPU Connect for club schedules.",
+      "metadata": {
+        "department": "All Departments",
+        "year": "All Years",
+        "frequency": "Sometimes",
+        "difficulty": "Easy",
+        "confidence_score": 0.86,
+        "created_date": "2024-01-14",
+        "reviewed_by": "Student Affairs",
+        "last_updated": "2024-01-15"
+      }
+    },
+    {
+      "id": "query_010",
+      "original_query": "Where is the medical centre and what are its hours?",
+      "normalized_query": "where is the medical centre and what are its hours",
+      "category": "Health Services",
+      "subcategory": "Medical Facilities",
+      "answer": "Medical Centre is located near Block 8. Open 24/7 for emergencies. OPD hours: 9:00 AM to 6:00 PM (Monday to Saturday). Free basic medical services for all students with valid ID card.",
+      "metadata": {
+        "department": "All Departments",
+        "year": "All Years",
+        "frequency": "Sometimes",
+        "difficulty": "Easy",
+        "confidence_score": 0.93,
+        "created_date": "2024-01-15",
+        "reviewed_by": "Medical Services",
+        "last_updated": "2024-01-15"
+      }
+    }
+  ],
+  "statistics": {
+    "category_distribution": {
+      "Certificates & Documents": 1,
+      "Academics & Courses": 1,
+      "Hostel & Accommodation": 1,
+      "Exams & Schedule": 1,
+      "Scholarships & Financial Aid": 1,
+      "Campus Facilities": 1,
+      "Placements & Internships": 1,
+      "Fees & Payments": 1,
+      "Student Clubs & Activities": 1,
+      "Health Services": 1
+    },
+    "quality_metrics": {
+      "average_confidence": 0.905,
+      "completeness_rate": 1.0,
+      "accuracy_estimate": 0.90,
+      "categories_covered": 8
+    },
+    "metadata_summary": {
+      "difficulty_distribution": {
+        "Easy": 6,
+        "Medium": 4
+      },
+      "frequency_distribution": {
+        "Very Often": 2,
+        "Often": 4,
+        "Sometimes": 4
+      },
+      "department_coverage": {
+        "All Departments": 9,
+        "2nd Year and above": 1
+      }
+    }
+  }
+}

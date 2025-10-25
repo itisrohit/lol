@@ -1,0 +1,133 @@
+{
+  "form_title": "LPU Student Questions Survey - Help Build Your Campus Chatbot",
+  "form_description": "Help us create an intelligent chatbot that answers student questions instantly! Your responses will help improve student support services at LPU.",
+  "fields": [
+    {
+      "id": "name_roll_no",
+      "type": "short_answer",
+      "title": "Name / Roll Number (Optional)",
+      "description": "Optional - you can remain anonymous",
+      "required": false
+    },
+    {
+      "id": "program_department",
+      "type": "dropdown",
+      "title": "Program / Department",
+      "description": "Select your current academic program",
+      "required": true,
+      "options": [
+        "B.Tech Computer Science Engineering",
+        "B.Tech Information Technology",
+        "B.Tech Electronics & Communication",
+        "B.Tech Mechanical Engineering",
+        "B.Tech Civil Engineering",
+        "B.Tech Electrical Engineering",
+        "BCA (Bachelor of Computer Applications)",
+        "BBA (Bachelor of Business Administration)",
+        "MBA (Master of Business Administration)",
+        "B.Pharm (Bachelor of Pharmacy)",
+        "B.Com (Bachelor of Commerce)",
+        "B.Sc (Bachelor of Science)",
+        "M.Tech (Master of Technology)",
+        "MCA (Master of Computer Applications)",
+        "Ph.D. Programs",
+        "Diploma Programs",
+        "Other"
+      ]
+    },
+    {
+      "id": "year_of_study",
+      "type": "multiple_choice",
+      "title": "Year of Study",
+      "description": "Select your current academic year",
+      "required": true,
+      "options": [
+        "1st Year",
+        "2nd Year", 
+        "3rd Year",
+        "4th Year",
+        "5th Year (if applicable)"
+      ]
+    },
+    {
+      "id": "residence_type",
+      "type": "multiple_choice",
+      "title": "Hosteller / Day Scholar",
+      "description": "Select your accommodation type",
+      "required": true,
+      "options": [
+        "Hosteller",
+        "Day Scholar"
+      ]
+    },
+    {
+      "id": "question_category",
+      "type": "dropdown",
+      "title": "Area of Question",
+      "description": "Select the category that best fits your question",
+      "required": true,
+      "options": [
+        "Admissions & Applications",
+        "Academics & Courses",
+        "Exams & Results",
+        "Fees & Payments",
+        "Hostel & Accommodation",
+        "Transport & Parking",
+        "Placements & Internships",
+        "Campus Facilities",
+        "Library Services",
+        "Sports & Recreation",
+        "Student Clubs & Activities",
+        "Certificates & Documents",
+        "IT Services & Support",
+        "Health Services",
+        "Career Guidance",
+        "Scholarships & Financial Aid",
+        "Exam Schedule",
+        "Timetable & Classes",
+        "Attendance Requirements",
+        "Project Work & Thesis",
+        "General Information"
+      ]
+    },
+    {
+      "id": "question_text",
+      "type": "paragraph",
+      "title": "Your Question",
+      "description": "Please write the exact question you have as an LPU student (minimum 10 characters)",
+      "required": true,
+      "validation": {
+        "min_length": 10
+      }
+    },
+    {
+      "id": "query_frequency",
+      "type": "multiple_choice",
+      "title": "Frequency of Query",
+      "description": "How often do you or others ask this type of question?",
+      "required": false,
+      "options": [
+        "Rarely",
+        "Sometimes", 
+        "Often",
+        "Very Often",
+        "Every semester"
+      ]
+    },
+    {
+      "id": "additional_notes",
+      "type": "paragraph",
+      "title": "Additional Notes (Optional)",
+      "description": "Any extra context or suggestions that might help us understand your question better",
+      "required": false
+    }
+  ],
+  "settings": {
+    "collect_email": false,
+    "limit_response": false,
+    "shuffle_questions": false,
+    "show_progress_bar": true,
+    "edit_after_submit": false,
+    "confirmation_message": "Thank you for your response! Your input will help us create a better student support system at LPU."
+  }
+}
