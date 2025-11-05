@@ -327,7 +327,7 @@ This comprehensive query processing architecture ensures that LPU students recei
 
 ### **Estimated Budget & Investment (Software Only)**
 
-This section provides a transparent estimate of the software investment required to implement the LPU Student Query Intelligence System. **All costs relate to software components only; hardware-related expenses are not included.**
+This section provides a transparent estimate of the software investment required to implement the LPU Student Query Intelligence System. **All costs relate to software components only; hardware-related expenses are not included.** *Note: These are initial building costs. Scalability follows a pay-as-you-go model based on usage and requirements.*
 
 #### **Budget Summary**
 
@@ -341,7 +341,7 @@ This section provides a transparent estimate of the software investment required
 | **GitHub Copilot** | Variable | Variable | Development tool (optional) - Software tool |
 | **Total Monthly** | **₹3,100+** | **₹37,200+** | Software costs only, any hardware-related costs excluded |
 
-#### **One-Time Setup Costs**
+#### **Initial Building Costs (One-Time Setup)**
 
 | Item | Cost | Notes |
 | :---- | :---- | :---- |
@@ -368,7 +368,32 @@ This section provides a transparent estimate of the software investment required
 * **Student Developers**: Utilizing LPU computer science students for development can reduce software development costs by 50-60%
 * **Hybrid Deployment**: Mix of free tier and self-hosted Qdrant for optimal software cost-performance
 
-**Note:** All optimization opportunities relate to software costs only. Any hardware-related expenses are not included in this analysis.
+**Note:** All optimization opportunities relate to software costs only. Any hardware-related expenses are not included in this analysis. *Scaling costs will follow a pay-as-you-go model based on actual usage and growth requirements.*
+
+### **Estimated Budget & Investment (Hardware Only)**
+
+This section provides a transparent estimate of the hardware investment required to implement the LPU Student Query Intelligence System. All costs relate to hardware components only; software-related expenses are not included. *Note: These are initial building costs for the basic booth setup. Additional booths and scaling follow a pay-as-you-go model based on deployment requirements.*
+
+#### **Budget Summary**
+
+**Initial Building Costs (One-Time Setup)**
+
+| Item | Cost | Notes |
+| :---- | :---- | :---- |
+| Display | ₹10,000 | 32'' 1920*1080p display |
+| Computing hardware | ₹18,000 | Single board computer, LattePanda Mu |
+| Body Of the Booth | ₹5,000-₹10,000 | Depends upon Material |
+| Add on for computing hardware | ₹3,000 | Microphone, SSD, power source, Heatsink, speakers |
+| Uninterruptible Power Supply (UPS) | ₹4,000 | protect system from surges short outages |
+| Ethernet Cables | Variable | Connecting Booth to internet |
+
+#### **Hardware Cost Optimization Opportunities**
+
+* **Computing Hardware:** Development boards with less resources can be used in order to save cost of hardware.
+* **Physical Body:** Physical design can be designed using plastic, PVC sheets instead of metal or stainless steel.
+* **Uninterruptible Power Supply (UPS):** Centralised UPS system can be used instead of individual UPS per booth
+
+**Note:** All optimization opportunities relate to hardware costs only. Any software-related expenses are not included in this analysis. *Additional booths and scaling follow a pay-as-you-go model based on deployment requirements.*
 
 
 
